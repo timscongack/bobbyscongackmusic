@@ -5,22 +5,67 @@ import { Facebook, Instagram } from 'lucide-react'
 export default function Biography() {
   return (
     <section className="grid gap-8 md:grid-cols-2">
-      <div className="space-y-4">
-        <div className="relative aspect-[4/3] w-3/4 mx-auto overflow-hidden rounded-lg">
+      <div className="grid grid-cols-12 grid-rows-12 gap-2 h-[600px]">
+        <div className="col-span-5 row-span-4 relative overflow-hidden rounded-lg">
           <Image
-            src="/images/bobbyo.webp"
-            alt="Bobby Scongack stage performance"
+            src="/images/bobbybarns.jpg"
+            alt="Bobby Scongack playing guitar against a rustic barn door"
             width={400}
-            height={300}
+            height={267}
             className="object-cover w-full h-full"
           />
         </div>
-        <div className="relative aspect-[4/3] w-3/4 mx-auto overflow-hidden rounded-lg">
+        <div className="col-span-3 row-span-3 relative overflow-hidden rounded-lg">
           <Image
-            src="/images/bobbyvegabond.webp"
-            alt="Bobby Scongack walking with guitar case"
+            src="/images/bobbyo.jpg"
+            alt="Bobby Scongack performing with electric guitar in black and white"
+            width={200}
+            height={267}
+            className="object-cover w-full h-full"
+          />
+        </div>
+        <div className="col-span-4 row-span-5 relative overflow-hidden rounded-lg">
+          <Image
+            src="/images/bobbydock.jpg"
+            alt="Bobby Scongack playing guitar at sunset on a dock"
+            width={300}
+            height={200}
+            className="object-cover w-full h-full"
+          />
+        </div>
+        <div className="col-span-4 row-span-4 relative overflow-hidden rounded-lg">
+          <Image
+            src="/images/bobbygreen.jpg"
+            alt="Bobby Scongack playing guitar outdoors in natural setting"
+            width={300}
+            height={200}
+            className="object-cover w-full h-full"
+          />
+        </div>
+        <div className="col-span-4 row-span-4 relative overflow-hidden rounded-lg">
+          <Image
+            src="/images/bobbyclimax.jpg"
+            alt="Bobby Scongack performing on stage with acoustic guitar"
+            width={300}
+            height={200}
+            className="object-cover w-full h-full"
+          />
+        </div>
+        <div className="col-span-4 row-span-5 relative overflow-hidden rounded-lg">
+          <Image
+            src="/images/bobbystairs.jpg"
+            alt="Bobby Scongack sitting on metal stairs"
+            width={300}
+            height={400}
+            className="object-cover w-full h-full"
+          />
+        </div>
+        <div className="col-span-5 row-span-8 relative overflow-hidden rounded-lg">
+          <Image
+            src="/images/bobbyvegabond.jpg"
+            alt="Bobby Scongack walking with his guitar case on a street"
             width={400}
-            height={300}
+            height={600}
             className="object-cover w-full h-full"
           />
         </div>

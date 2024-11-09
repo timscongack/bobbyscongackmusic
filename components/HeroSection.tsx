@@ -38,8 +38,8 @@ export default function HeroSection() {
       <div className="grid gap-4 md:grid-cols-2">
         <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
           <Image
-            src="/images/bobbydock.webp"
-            alt="Bobby Scongack playing guitar at sunset"
+            src="/images/bobbybarns.jpg"
+            alt="Bobby Scongack playing guitar at Barn"
             width={800}
             height={600}
             className="object-cover w-full h-full"
@@ -48,8 +48,8 @@ export default function HeroSection() {
         </div>
         <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
           <Image
-            src="/images/bobbygreen.webp"
-            alt="Bobby Scongack outdoor acoustic performance"
+            src="/images/bobbystairs.jpg"
+            alt="Bobby on the Stairs"
             width={800}
             height={600}
             className="object-cover w-full h-full"
